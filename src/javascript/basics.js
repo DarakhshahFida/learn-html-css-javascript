@@ -74,9 +74,9 @@ console.log(a, b)
 /**
  * Non- Primitive >> OBJECTS  >> key:value >> e.g. json file
  */
-// const obj = {
-//     name: 'Darakhshah',
-//     id: 6763,
-//     isWorking: true
-// }
-// console.log('the name of the obj is', obj.name)
+const obj = {
+    name: 'Darakhshah',
+    id: 6763,
+    isWorking: true
+}
+console.log('the name of the obj is', obj.name)
