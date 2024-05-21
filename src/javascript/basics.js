@@ -24,24 +24,24 @@ console.log(a)
 /* 
     var is globally scoped 
 */
-// {
-//     var b = 'hi'
-//     console.log('value of b', b)
-// }
-// console.log('global value of b', b)  // even if we defined it inside a block of code, still this will print b outside the block as well
+{
+    var b = 'hi'
+    console.log('value of b', b)
+}
+console.log('global value of b', b)  // even if we defined it inside a block of code, still this will print b outside the block as well
 
 
 
 /*
     let is block scoped
 */
-// let b = 'Hello'
+let b = 'Hello'
 
-// {
-//     let b = 'hi'
-//     console.log(b)
-// }
-// console.log(b)
+{
+    let b = 'hi'
+    console.log(b)
+}
+console.log(b)
 
 
 
@@ -49,26 +49,26 @@ console.log(a)
  * 'let' can be updated but not redeclared
  */
 
-// let c = 'Hello'
-// // let c = 4
-// // c = 4
-// console.log(c)
+let c = 'Hello'
+// let c = 4
+// c = 4
+console.log(c)
 
 /**
  * 'const' can neither be redeclared nor updated
  */
-// const d = 'hello'
-// d = 4
-// // let d = 5
-// console.log(d)
+const d = 'hello'
+d = 4
+// let d = 5
+console.log(d)
 
 
 /**
  * PRIMITIVE DATA TYPES >> 7 AND OBJECTS
  */
-// const a = null;
-// const b = BigInt(3653654)
-// console.log(a, b)
+const a = null;
+const b = BigInt(3653654)
+console.log(a, b)
 
 
 /**
